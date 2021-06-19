@@ -9,6 +9,9 @@ import { MainMenuComponent } from "./components/main-menu/main-menu.component";
 import { SideMenuComponent } from "./components/side-menu/side-menu.component";
 
 import { ButtonsModule } from "@progress/kendo-angular-buttons";
+import { InputsModule } from "@progress/kendo-angular-inputs";
+import { LabelModule } from "@progress/kendo-angular-label";
+import { DropDownsModule } from "@progress/kendo-angular-dropdowns";
 
 @NgModule({
   imports: [FormsModule, RouterModule, NgbModule],
@@ -20,6 +23,9 @@ import { ButtonsModule } from "@progress/kendo-angular-buttons";
     PresetFilterComponent,
     NgbModule,
     ButtonsModule,
+    DropDownsModule,
+    LabelModule,
+    InputsModule,
   ],
   declarations: [MainMenuComponent, SideMenuComponent, PresetFilterComponent],
   providers: [],
